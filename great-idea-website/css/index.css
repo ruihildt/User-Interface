@@ -71,6 +71,11 @@ body {
 	margin: 0 auto;
 }
 
+a, p {
+	font-family: roboto;
+}
+
+
 a {
 	text-decoration:none;
 	color:grey;
@@ -80,20 +85,28 @@ h1 {
 	font-size:4.2em;
 }
 
+header {
+	position:sticky;
+	top:0;
+}
+
+nav {
+	background-color: #c0caeb;
+	padding: 20px 5px;
+}
+nav .first-anchor {
+  margin-left: 10px;
+}
+
 nav a, nav img{
 	display:inline-block;
-	margin-top: 20px;
 	vertical-align: middle;
-	margin:24px;
+	margin:20px;
 }
 
 nav img {
-	margin:0 0 0 39px;
+	margin:0 10px 0 26px;
 	width:200px;
-}
-
-nav .first-anchor {
-  margin-left: 0;
 }
 
 .row-1, .row-2, .row-3, .row-4, .row-5 {
