@@ -66,15 +66,20 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	width: 980px;
+	margin: 0 auto;
+}
+
 a {
 	text-decoration:none;
 	color:grey;
 }
 
-body {
-	width: 980px;
-	margin: 0 auto;
+h1 {
+	font-size:4.2em;
 }
+
 
 nav a, nav img{
 	display:inline-block;
@@ -86,4 +91,18 @@ nav a, nav img{
 nav img {
 	padding-left:20px;
 }
+
+.row-1 .column {
+	display: inline-block;
+	width:49.7%;
+	vertical-align: top;
+	text-align:center;
+}
+
+.row-1 .column h1 {
+	width:269px;
+	margin: 0 auto;
+	padding-top:70px;
+}
+
 
