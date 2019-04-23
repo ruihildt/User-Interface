@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	width: 980px;
+	width: 876px;
 	margin: 0 auto;
 }
 
@@ -80,16 +80,20 @@ h1 {
 	font-size:4.2em;
 }
 
-
 nav a, nav img{
 	display:inline-block;
 	margin-top: 20px;
 	vertical-align: middle;
-	padding:30px;
+	padding:24px;
 }
 
 nav img {
-	padding-left:20px;
+	padding:0 0 0 23px;
+	width:200px;
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5 {
+	padding:40px 0 ;
 }
 
 .row-1 .column {
@@ -102,7 +106,36 @@ nav img {
 .row-1 .column h1 {
 	width:269px;
 	margin: 0 auto;
-	padding-top:70px;
+	padding:40px 0;
 }
 
+.row-1 .column a {
+	border: 1px black solid;
+	padding:10px;
 
+}
+
+.row-2 {
+	border-top: 2px black solid;
+}
+
+.row-2 .column  {
+	display: inline-block;
+	width:48%;
+	margin-right:8px;
+}
+
+.row-4 .column  {
+	display: inline-block;
+	width:32%;
+	margin-right:8px;
+}
+
+.row-5 {
+	width:200px;
+}
+
+footer {
+	text-align:center;
+	margin: 20px 0;
+}
