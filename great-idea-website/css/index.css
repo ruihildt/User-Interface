@@ -65,3 +65,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	text-decoration:none;
+	color:grey;
+}
+
+body {
+	width: 980px;
+	margin: 0 auto;
+}
+
+nav a, nav img{
+	display:inline-block;
+	margin-top: 20px;
+	vertical-align: middle;
+	padding:30px;
+}
+
+nav img {
+	padding-left:20px;
+}
+
