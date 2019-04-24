@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +65,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+
+a, p {
+	font-family: roboto;
+}
+
+
+a {
+	text-decoration:none;
+	color:grey;
+}
+
+h1 {
+	font-size:4.2em;
+}
+
+header {
+	position:sticky;
+	top:0;
+}
+
+nav {
+	background-color: #c0caeb;
+	padding: 20px 5px;
+}
+nav .first-anchor {
+  margin-left: 10px;
+}
+
+nav a, nav img{
+	display:inline-block;
+	vertical-align: middle;
+	margin:20px;
+}
+
+nav img {
+	margin:0 10px 0 26px;
+	width:200px;
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5 {
+	padding:40px 0 ;
+}
+
+.row-1 .column {
+	display: inline-block;
+	width:49.7%;
+	vertical-align: top;
+	text-align:center;
+}
+
+.row-1 .column h1 {
+	width:269px;
+	margin: 0 auto;
+	padding:40px 0;
+}
+
+.row-1 .column a {
+	border: 1px black solid;
+	padding:10px;
+
+}
+
+.row-2 {
+	border-top: 2px black solid;
+}
+
+.row-2 .column  {
+	display: inline-block;
+	width:48%;
+	margin-right:8px;
+}
+
+.row-4 .column  {
+	display: inline-block;
+	width:32%;
+	margin-right:8px;
+}
+
+.row-5 {
+	width:200px;
+}
+
+footer {
+	text-align:center;
+	margin: 20px 0;
+}
